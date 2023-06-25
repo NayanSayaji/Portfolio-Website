@@ -740,7 +740,7 @@
  }
 
  /* For medium devices */
- @media screen and (min-width: 331px) and (max-width: 576px) {
+ @media screen and (min-width: 341px) and (max-width: 576px) {
 
    .home__container,
    .about__container,
@@ -748,7 +748,7 @@
    .services__container,
    .projects__container,
    .contact__container {
-     grid-template-columns: 330px;
+     grid-template-columns: 341px;
      justify-content: center;
      margin-left: 0;
    }
