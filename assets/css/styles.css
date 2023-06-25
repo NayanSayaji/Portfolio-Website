@@ -773,8 +773,9 @@
    }
 
    .developerSVG {
-     width: 100%;
-     height: 120%;
+     width: 80%;
+     height: 80%;
+     left: 10%;
      opacity: 0.5;
      /* margin-left: 5%; */
      margin-top: -15%;
