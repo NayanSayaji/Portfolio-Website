@@ -76,7 +76,7 @@ window.addEventListener('scroll',scrollUp)
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive=()=>{
-    const scrollY = window.pageYOffset
+    const scrollY = window.scrollY
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
@@ -95,6 +95,7 @@ const scrollActive=()=>{
 window.addEventListener('scroll', scrollActive)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
 const sr = scrollReveal({
     origin:'top',
     distance: '60px',

@@ -3,7 +3,7 @@
 
  /*=============== VARIABLES CSS ===============*/
  :root {
-   --header-height: 3.5rem;
+   --header-height: 2rem;
 
    /*========== Colors ==========*/
    /*Color mode HSL(hue, saturation, lightness)*/
@@ -818,7 +818,7 @@
   .skills__content{
     column-gap: 8rem;
   }
- /* 
+ 
 
 
   .skills__group{
@@ -867,6 +867,7 @@
   .footer{
     padding-block: 4.5rem 4rem;
   }
+
   .footer__container{
      grid-template-columns: repeat(3,1fr);
      align-items: center;
@@ -883,12 +884,12 @@
   
   .footer__copy{
     margin: 0;  
-    justify-self: flex-end;
+    justify-self: end;
   }
 
   .scrollup{
     right: 3rem;
-  } */
+  }
 } 
 
 
