@@ -476,13 +476,15 @@
    display: block;
    position: absolute;
    display: block;
-   margin-left: 20%;
+   margin-left: 12.5%;
    margin-right: auto;
    justify-self: center;
-   width: 60%;
-   opacity: 1;
+   width: 75%;
+   height: 100%;
+   opacity: 0.75;
    z-index: -10;
    mix-blend-mode: multiply;
+
  }
 
  /*=============== PROJECTS ===============*/
@@ -712,7 +714,7 @@
    }
 
    .about__data {
-     width: 80%;
+     /* width: 80%; */
      text-align: center;
    }
 
@@ -738,7 +740,7 @@
  }
 
  /* For medium devices */
- @media screen and (min-width: 351px) and (max-width: 576px) {
+ @media screen and (min-width: 331px) and (max-width: 576px) {
 
    .home__container,
    .about__container,
@@ -746,8 +748,9 @@
    .services__container,
    .projects__container,
    .contact__container {
-     grid-template-columns: 360px;
+     grid-template-columns: 330px;
      justify-content: center;
+     margin-left: 0;
    }
 
    .nav {
@@ -758,14 +761,13 @@
      height: var(--header-height);
    }
    .services {
-     /* width: 200px; */
      justify-content: center;
      align-items: center;
    }
 
    .services__card {
-     left: 10%;
-     width: 80%;
+     left: 5%;
+     width: 90%;
      backdrop-filter: blur(100px);
    }
 
@@ -779,7 +781,7 @@
 
    .projects__card {
      position: relative;
-     width: 80%;
+     width: 90%;
      left: 10%;
    }
 
