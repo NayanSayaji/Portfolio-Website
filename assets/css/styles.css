@@ -704,7 +704,7 @@
 
  /*=============== BREAKPOINTS ===============*/
  /* For small devices */
- @media screen and (max-width: 350px) {
+ @media screen and (max-width: 320px) {
    .container {
      margin-inline: 1rem;
    }
@@ -726,7 +726,7 @@
    .services__card {
      width: 90%;
      left: 5%;
-     backdrop-filter: blur(50px);
+     backdrop-filter: blur(3px);
    }
 
    .developerSVG {
@@ -734,13 +734,13 @@
      height: 70%;
      /* justify-self: center; */
      margin-top: 0px;
-     margin-left: -5%;
-     zoom: 50%;
+     /* margin-left: -5%; */
+     /* zoom: 50%; */
    }
  }
 
  /* For medium devices */
- @media screen and (min-width: 341px) and (max-width: 576px) {
+ @media screen and (mix-width: 321px) and (max-width: 576px) {
 
    .home__container,
    .about__container,
@@ -748,7 +748,7 @@
    .services__container,
    .projects__container,
    .contact__container {
-     grid-template-columns: 341px;
+     grid-template-columns: 360px;
      justify-content: center;
      margin-left: 0;
    }
@@ -764,11 +764,16 @@
      justify-content: center;
      align-items: center;
    }
-   
+   .skills__container{
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    left: 5%;
+  }
    .services__card {
      margin-left: 10%;
      width: 80%;
-     height: 100%;
+     height: 80%;
      backdrop-filter: blur(100px);
    }
 
@@ -776,7 +781,7 @@
      width: 80%;
      height: 80%;
      left: 10%;
-     opacity: 0.5;
+     opacity: 0.8;
      /* margin-left: 5%; */
      /* margin-top: -15%; */
    }
