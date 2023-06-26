@@ -453,23 +453,6 @@
 
  }
 
-<<<<<<< HEAD
- .developerSVG {
-   display: block;
-   position: absolute;
-   display: block;
-   margin-left: 12.5%;
-   margin-right: auto;
-   justify-self: center;
-   width: 75%;
-   height: 100%;
-   opacity: 0.75;
-   z-index: -10;
-   mix-blend-mode: multiply;
-
- }
-
-=======
 .developerSVG{
   display: block;
   position: absolute;
@@ -482,7 +465,6 @@
   z-index: -10;
   mix-blend-mode: multiply;
 }
->>>>>>> parent of be64f83 (Update styles.css)
  /*=============== PROJECTS ===============*/
 
  .projects {
