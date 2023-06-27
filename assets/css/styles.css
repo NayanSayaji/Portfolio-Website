@@ -819,7 +819,7 @@
    .services__card {
      left: 10%;
      width: 80%;
-     backdrop-filter: blur(1px);
+     backdrop-filter: blur(5px);
    }
 
    .developerSVG {
