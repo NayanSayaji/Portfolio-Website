@@ -184,7 +184,7 @@
  }
 
  /*=============== HEADER & NAV ===============*/
- label.change__mode{
+ .change__mode{
   position: relative;
   width: 40px;
   height: 20px;
@@ -197,7 +197,7 @@
 #dark-mode{
   display: none;
 }
-label.change__mode:after{
+.change__mode:after{
   content: '';
   position: absolute;
   height: 20px;
@@ -209,12 +209,12 @@ label.change__mode:after{
   transition: 0.5s;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
-input#dark-mode:checked ~ label:after{
+#dark-mode:checked ~ label:after{
   left: 40px;
   transform: translateX(-100%);
   background: linear-gradient(180deg,#777,#3a3a3a);
 }
-input#dark-mode:checked ~ label{
+#dark-mode:checked ~ label{
   background: #242424;
 }
 
@@ -818,7 +818,7 @@ input#dark-mode:checked ~ label{
 
    .services__card {
      left: 10%;
-     width: 80%;
+     width: 100%;
      backdrop-filter: blur(2px);
    }
 
