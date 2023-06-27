@@ -818,8 +818,8 @@
 
    .services__card {
      left: 10%;
-     width: 100%;
-     backdrop-filter: blur(2px);
+     width: 80%;
+     backdrop-filter: blur(1px);
    }
 
    .developerSVG {
