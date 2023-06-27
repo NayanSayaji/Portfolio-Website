@@ -19,6 +19,16 @@ if(navClose){
     })
 }
 
+
+/*=============== Mode Change ===============*/
+/* Dark to light vice versa */
+const changeMode = document.getElementById('dark-mode');
+const rootClass = document.querySelector(':root');
+
+changeMode.addEventListener("change", () => {
+    rootClass.classList.toggle('dark');
+})
+
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link')
 
