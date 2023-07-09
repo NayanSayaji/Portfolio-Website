@@ -27,7 +27,9 @@ const rootClass = document.querySelector(':root');
 
 changeMode.addEventListener("change", () => {
     rootClass.classList.toggle('dark');
+    
 })
+
 
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link')
