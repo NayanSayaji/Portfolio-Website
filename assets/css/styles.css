@@ -56,6 +56,7 @@
    /*========== z index ==========*/
    --z-tooltip: 10;
    --z-fixed: 100;
+
  }
 
 
@@ -211,11 +212,16 @@
 }
 #dark-mode:checked ~ label:after{
   left: 40px;
+  top: -1px;
   transform: translateX(-100%);
   background: linear-gradient(180deg,#777,#3a3a3a);
+  border: 1px solid rgb(151, 147, 147) ;
+  height: 19px;
+  width: 19px;
 }
 #dark-mode:checked ~ label{
   background: #242424;
+  
 }
 
  /*=============== HEADER & NAV ===============*/
@@ -276,7 +282,7 @@
  .nav__link {
    color: var(--title-color);
    font-weight: var(--font-medium);
-   transition: color .4s;
+   transition: color .5s;
  }
 
  .nav__link:hover {
