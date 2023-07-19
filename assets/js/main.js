@@ -25,19 +25,37 @@ if (navClose) {
 const changeMode = document.getElementById('dark-mode');
 const rootClass = document.querySelector(':root');
 
-localStorage.mode = "light";
+// localStorage.mode ;
 // console.log(this.localStorage.getItem("mode"));
 // console.log(localStorage.getItem("mode"));
 
-changeMode.addEventListener("change", () => {
-    if (this.localStorage.mode === "light") {
-        this.localStorage.mode = "dark";
+if(localStorage.mode === "dark"){
+    rootClass.classList.add('dark');
+    changeMode.checked = true;
+}else if(localStorage.mode === "light"){
+    rootClass.classList.remove('dark');
+}
+
+changeMode.addEventListener("change", function(){
+
+    if (this.checked) {
+        localStorage.mode = "dark";
         rootClass.classList.add('dark');
-    } else if (this.localStorage.mode === "dark") {
-        this.localStorage.mode = "light";
+        console.log(true);
+    } else {
+        localStorage.mode = "light";
         rootClass.classList.remove('dark');
+        console.log(false);
     }
-console.log(this.localStorage.mode);
+
+    // if (localStorage.mode === "light") {
+    //     localStorage.mode = "dark";
+    //     rootClass.classList.add('dark');
+    // } else if (localStorage.mode === "dark") {
+    //     localStorage.mode = "light";
+    //     rootClass.classList.remove('dark');
+    // }
+    console.log(localStorage.mode);
 })
 
 console.log(localStorage.getItem("mode"));
