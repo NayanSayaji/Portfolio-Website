@@ -211,11 +211,11 @@
 }
 
 #dark-mode~ label.moon{
-  display: none;
+  display: none; 
 }
-#dark-mode:checked ~ label.moon{
-  /* display: block; */
-}
+/* #dark-mode:checked ~ label.moon{
+  display: block;
+} */
 
 #dark-mode:checked ~ label.sun{
   rotate: 180deg;
