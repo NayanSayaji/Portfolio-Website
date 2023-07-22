@@ -300,7 +300,15 @@
    top: 1rem;
    right: 1.5 rem;
  }
-
+ .nav__dark {
+   position: absolute;
+   top: 0.2rem;
+   right: 10%;
+   margin: 0.25vh 5vw;
+ }
+ .nav__dark ~ label{
+  background-color: transparent;
+ }
  /* Show menu */
  .show-menu {
    right: 0;
@@ -985,7 +993,7 @@
      height: calc(var(--header-height) + 1.5rem);
    }
 
-   .nav__close, .nav__toggle {
+   .nav__close, .nav__toggle , .nav__dark{
      display: none;
    }
 
