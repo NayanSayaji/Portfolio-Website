@@ -14,4 +14,5 @@ The portfolio comes with dark mode and Local Storage in it for keeping same them
 
 #### Responsive Design ->
 ![image](https://github.com/NayanSayaji/Portfolio-Website/assets/87807909/7eb346c7-8da0-4d9f-8ecb-eede7eaac7f3)
-
+![image](https://github.com/NayanSayaji/Portfolio-Website/assets/87807909/1a9b5adb-1c1f-4e29-a39d-7c473ed921fd)
+![image](https://github.com/NayanSayaji/Portfolio-Website/assets/87807909/797d337d-9c62-430a-9597-2e696640e953)
