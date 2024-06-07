@@ -32,7 +32,9 @@
    --text-color: hsl(229, 18%, 12%);
    --title-color-alt: hsl(0, 0%, 100%);
    --text-color-alt: hsl(240, 100%, 100%);
-   --body-color: hsl(322, 21%, 93%);
+/*    --body-color: hsl(322, 21%, 93%); */
+   --body-color: hsl(356, 100%, 75%);
+  
    --container-color: hsl(228, 8%, 95%);
 
 
